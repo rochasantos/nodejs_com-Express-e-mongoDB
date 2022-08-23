@@ -7,7 +7,11 @@ const routes = app => {
     res.status(200).send('Curso Node com Express e MongoDB')
   })
 
-  app.use(express.json(), livrosRoutes, autoresRoutes)
+  app.use(
+    express.json(), // faz o parser na req para formato json - subst o body-parser()
+    livrosRoutes, 
+    autoresRoutes
+  )
 }
 
 export default routes

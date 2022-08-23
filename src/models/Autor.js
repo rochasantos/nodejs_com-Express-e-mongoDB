@@ -11,6 +11,6 @@ const autorSchema = new mongoose.Schema(
   }
 )
 
-const autorModel = mongoose.model('autores', autorSchema)
+const autorModel = mongoose.model('autores', autorSchema) // cria a coleção autores e relaciona ao esquema autorSchema
 
 export default autorModel

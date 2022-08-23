@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-mongoose.connect('mongodb+srv://adriano:1122@livros.sslg7dg.mongodb.net')
+mongoose.connect('mongodb+srv://adriano:xxxx@livros.sslg7dg.mongodb.net')
 
 const db = mongoose.connection
 
